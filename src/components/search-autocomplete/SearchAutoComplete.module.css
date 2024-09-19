@@ -1,0 +1,42 @@
+.search {
+  margin: 1rem auto;
+  max-width: 320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.search input {
+  width: 240px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 2px 4px;
+  border-bottom: 4px solid rgb(173, 172, 172);
+}
+.search input:focus {
+  outline: none;
+  border-bottom: 4px solid black;
+}
+
+.search ul {
+  width: 240px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 2px;
+  margin: 0;
+  background-color: #f6f6f6;
+  position: absolute;
+  top: 32px;
+}
+.search li {
+  cursor: pointer;
+}
+.search li button {
+  width: 100%;
+}
+.search li:hover {
+  background-color: #cecdcd;
+}
