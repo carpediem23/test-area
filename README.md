@@ -57,5 +57,3 @@
 - Custom Button
 - Marquee Icons
 - Cursor Follower
-
-[Deploy](https://react-test-area.netlify.app/)
